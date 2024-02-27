@@ -4,15 +4,15 @@
 using namespace geode::prelude;
 
 struct AutoSetPriority : Modify<AutoSetPriority, LoadingLayer> {
-    void loadingFinished() {
-        LoadingLayer::loadingFinished();
+	void loadingFinished() {
+		LoadingLayer::loadingFinished();
 
-        log::debug("Trying to set the process priority to HIGH...");
-        try {
-            SetPriorityClass(GetCurrentProcess(), HIGH_PRIORITY_CLASS);
-            log::debug("Process priority is now set to HIGH.");
-        } catch (...) {
-            log::error("Couldn't set the process priority.");
-        }
-    }
+		if (!SetPriorityClass(GetCurrentProcess(), HIGH_PRIORITY_CLASS)) {
+			DWORD error = GetLastError();
+			log::error("Couldn't set the process priority, error: {}", error);
+			return;
+		}
+
+		log::debug("Process priority is now set to HIGH.");
+	}
 };
