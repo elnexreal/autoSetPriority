@@ -4,4 +4,4 @@ This mod automatically sets your game's priority to High so you don't need to op
 
 # Notes
 
-- If you find bugs in this mod go to my [Discord server](https://discord.gg/vfFazvmKKb) and let me know about it.
+- Bugs should be reported in my [Discord server](https://discord.gg/vfFazvmKKb) or in the mod's GitHub repository.
