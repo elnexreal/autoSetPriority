@@ -10,8 +10,8 @@
 	"description": "Set your process priority to high when you launch the game.",
 	"repository": "https://github.com/elnexreal/auto_high_priority",
 	"tags": [
-		"Utility",
-		"Performance"
+		"utility",
+		"performance"
 	],
 	"links": {
 		"community": "https://discord.gg/vfFazvmKKb",

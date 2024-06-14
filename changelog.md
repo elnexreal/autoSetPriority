@@ -1,3 +1,7 @@
+# v1.0.3-alpha.3
+
+- Updated Geode target version to `v3.0.0-beta.1`
+
 # v1.0.3-alpha.2
 
 - Updated links for repository and community server.
