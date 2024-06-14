@@ -1,4 +1,9 @@
 {
+	"geode": "3.0.0-alpha.2",
+	"gd": {
+		"win": "2.206"
+	},
+	"version": "v2.0.0-alpha.1",
 	"id": "elnexreal.auto_high_priority",
 	"name": "Auto high priority.",
 	"developer": "elnexreal",
