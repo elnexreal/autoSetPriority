@@ -1,6 +1,7 @@
 # v1.0.3-alpha.2
 
 - Updated links for repository and community server.
+- This mod supersedes `elnexreal.auto_priority`
 
 # v1.0.3-alpha.1
 
