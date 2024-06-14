@@ -8,9 +8,14 @@
 	"name": "Auto high priority.",
 	"developer": "elnexreal",
 	"description": "Set your process priority to high when you launch the game.",
-	"repository": "https://github.com/elnexreal/autoSetPriority",
+	"repository": "https://github.com/elnexreal/auto_high_priority",
 	"tags": [
 		"Utility",
 		"Performance"
-	]
+	],
+	"supersedes": "elnexreal.auto_priority",
+	"links": {
+		"community": "https://discord.gg/vfFazvmKKb",
+		"homepage": "https://github.com/elnexreal"
+	}
 }
