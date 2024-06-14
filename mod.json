@@ -13,9 +13,15 @@
 		"Utility",
 		"Performance"
 	],
-	"supersedes": "elnexreal.auto_priority",
 	"links": {
 		"community": "https://discord.gg/vfFazvmKKb",
 		"homepage": "https://github.com/elnexreal"
-	}
+	},
+	"incompatibilities": [
+		{
+			"id": "elnexreal.auto_priority",
+			"version": "*",
+			"importance": "superseded"
+		}
+	]
 }
