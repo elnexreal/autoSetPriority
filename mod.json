@@ -1,9 +1,6 @@
 {
-	"geode": "2.0.0",
-	"gd": "2.204",
-	"version": "v1.0.2",
-	"id": "elnexreal.auto_priority",
-	"name": "Auto priority to high",
+	"id": "elnexreal.auto_high_priority",
+	"name": "Auto high priority.",
 	"developer": "elnexreal",
 	"description": "Set your process priority to high when you launch the game.",
 	"repository": "https://github.com/elnexreal/autoSetPriority",
