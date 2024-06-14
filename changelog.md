@@ -1,3 +1,7 @@
+# v1.0.3-alpha.2
+
+- Updated links for repository and community server.
+
 # v1.0.3-alpha.1
 
 - Bumped Geode version to `v1.0.3-alpha.1`
