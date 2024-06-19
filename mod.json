@@ -3,9 +3,9 @@
 	"gd": {
 		"win": "2.206"
 	},
-	"version": "v2.0.0-alpha.2",
+	"version": "v2.0.0-alpha.3",
 	"id": "elnexreal.auto_high_priority",
-	"name": "Auto high priority.",
+	"name": "Auto high priority",
 	"developer": "elnexreal",
 	"description": "Set your process priority to high when you launch the game.",
 	"repository": "https://github.com/elnexreal/auto_high_priority",
